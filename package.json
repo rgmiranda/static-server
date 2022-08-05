@@ -1,0 +1,29 @@
+{
+  "name": "simple-server",
+  "version": "0.1.0",
+  "description": "Simple ExpressJS static web server",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rgmiranda/static-server.git"
+  },
+  "keywords": [
+    "expressjs",
+    "node",
+    "webserver"
+  ],
+  "author": "Ricardo Miranda <rgmiranda@live.com.ar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rgmiranda/static-server/issues"
+  },
+  "homepage": "https://github.com/rgmiranda/static-server#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  }
+}
